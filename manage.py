@@ -2,6 +2,7 @@
 import os
 import sys
 
+sys.path.insert(0, 'sileo')
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'EUkay.settings')
